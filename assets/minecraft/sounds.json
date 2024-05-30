@@ -1,0 +1,1173 @@
+{
+   "block.chest.locked": {
+      "sounds": [
+         "misc/chest_locked1",
+         "misc/chest_locked2"
+      ],
+      "subtitle": "subtitles.block.chest.locked",
+      "replace" : true
+   },
+   "block.dispenser.fail": {
+      "sounds": ["misc/dispenser_fail"],
+      "subtitle": "subtitles.block.dispenser.fail",
+      "replace" : true
+   },
+   "block.dispenser.launch": {
+      "sounds": ["combat/ranged/crossbow_shoot"],
+      "subtitle": "subtitles.block.dispenser.dispense",
+      "replace" : true
+   },
+   "block.end_gateway.spawn": {
+      "sounds": [
+        "misc/hl_explosion1",
+        "misc/hl_explosion2",
+        "misc/hl_explosion3",
+        "misc/hl_explosion4",
+        "misc/is_explosion1",
+        "misc/is_explosion2",
+        "misc/is_explosion3"
+      ],
+      "subtitle": "subtitles.entity.generic.explode",
+      "replace" : true
+   },
+   "block.fire.ambient": {
+      "sounds": ["misc/fdwhitemare_fire"],
+      "subtitle": "subtitles.block.fire.ambient",
+      "replace" : true
+   },
+   "block.fire.extinguish": {
+      "sounds": ["misc/gt_fuze"],
+      "subtitle": "subtitles.block.fire.extinguish",
+      "replace" : true
+   },
+   "block.glass.break": {
+      "sounds": [
+          {
+            "name": "misc/fragile_break",
+            "volume": 1.0,
+            "pitch": 4.0
+          }
+      ],
+      "subtitle": "subtitles.block.generic.break",
+      "replace" : true
+   },
+   "block.glass.hit": {
+      "sounds": [
+          {
+            "name": "misc/fragile_crack",
+            "volume": 1.0,
+            "pitch": 1.9
+          }
+      ],
+      "subtitle": "subtitles.block.generic.hit",
+      "replace" : true
+   },
+   "block.portal.travel": {
+      "sounds": [
+        "misc/ender_teleport1",
+        "misc/ender_teleport2",
+        "misc/ender_teleport3",
+        "misc/ender_teleport4",
+        "misc/ender_teleport5",
+        "misc/ender_teleport6",
+        "misc/ender_teleport7",
+        "misc/ender_teleport8",
+        "misc/ender_teleport9",
+        "misc/ender_teleport10",
+        "misc/ender_teleport11",
+        "misc/ender_teleport12",
+        "misc/ender_teleport13"
+       ],
+      "replace" : true
+   },
+   "block.tripwire.attach": {
+      "sounds": ["tripwire/tripwire_trigger"],
+      "subtitle": "subtitles.block.tripwire.attach",
+      "replace" : true
+   },
+   "block.tripwire.click_off": {
+      "sounds": ["tripwire/tripwire_trigger"],
+      "subtitle": "subtitles.block.tripwire.click",
+      "replace" : true
+   },
+   "block.tripwire.click_on": {
+      "sounds": ["tripwire/tripwire_trigger"],
+      "subtitle": "subtitles.block.tripwire.click",
+      "replace" : true
+   },
+   "block.tripwire.detach": {
+      "sounds": [
+         "tripwire/tripwire_detach1",
+         "tripwire/tripwire_detach2"
+      ],
+      "subtitle": "subtitles.block.tripwire.detach",
+      "replace" : true
+   },
+   "entity.armor_stand.break": {
+      "sounds": [
+         "entity/armorstand/stand_break1",
+         "entity/armorstand/stand_break2",
+         "entity/armorstand/stand_break3"
+      ],
+      "subtitle": "subtitles.block.generic.break",
+      "replace" : true
+   },
+   "entity.armor_stand.fall": {
+      "sounds": [
+         "entity/armorstand/stand_land"
+      ],
+      "subtitle": "subtitles.entity.armor_stand.fall",
+      "replace" : true
+   },
+   "entity.armor_stand.hit": {
+      "sounds": [
+         "entity/armorstand/stand_hit1",
+         "entity/armorstand/stand_hit2",
+         "entity/armorstand/stand_hit3",
+         "entity/armorstand/stand_hit4"
+      ],
+      "subtitle": "subtitles.block.generic.hit",
+      "replace" : true
+   },
+   "entity.armor_stand.place": {
+      "sounds": [
+         "entity/armorstand/stand_land"
+      ],
+      "subtitle": "subtitles.block.generic.place",
+      "replace" : true
+   },
+   "entity.arrow.hit": {
+      "sounds": [
+         "combat/ranged/arrow_impact1",
+         "combat/ranged/arrow_impact2",
+         "combat/ranged/arrow_impact3",
+         "combat/ranged/arrow_impact4",
+         "combat/ranged/arrow_impact5"
+      ],
+      "subtitle": "subtitles.entity.arrow.hit",
+      "replace" : true
+   },
+   "entity.arrow.shoot": {
+      "sounds": ["combat/ranged/bow_shoot"],
+      "subtitle": "subtitles.entity.arrow.shoot",
+      "replace" : true
+   },
+   "entity.blaze.burn": {
+      "sounds": ["misc/fdwhitemare_fire"],
+      "subtitle": "subtitles.entity.blaze.burn",
+      "replace" : true
+   },
+   "entity.blaze.shoot": {
+      "sounds": ["entity/fireballer/fireball_small"],
+      "subtitle": "subtitles.entity.blaze.shoot",
+      "replace" : true
+   },
+   "entity.dragon_fireball.explode": {
+      "sounds": [
+        "misc/hl_explosion1",
+        "misc/hl_explosion2",
+        "misc/hl_explosion3",
+        "misc/hl_explosion4",
+        "misc/is_explosion1",
+        "misc/is_explosion2",
+        "misc/is_explosion3"
+      ],
+      "subtitle": "subtitles.entity.generic.explode",
+      "replace" : true
+   },
+   "entity.drowned.shoot": {
+      "sounds": [
+         "combat/trident/trident_throw1",
+         "combat/trident/trident_throw2"
+      ],
+      "subtitle": "subtitles.entity.drowned.shoot",
+      "replace" : true
+   },
+   "entity.egg.throw": {
+      "sounds": [
+          {
+              "name" : "misc/item_dropthrow",
+              "pitch" : 1.5,
+              "volume" : 0.5
+          }
+        ],
+      "subtitle": "subtitles.entity.egg.throw",
+      "replace" : true
+   },
+    "entity.elder_guardian.curse": {
+      "sounds": [
+        "entity/dragon/dragon_roar1",
+        "entity/dragon/dragon_roar2"
+      ],
+      "subtitle": "subtitles.entity.elder_guardian.curse",
+      "replace" : true
+    },
+   "entity.ender_dragon.ambient": {
+      "sounds": [
+         "entity/dragon/dragon_roar1",
+         "entity/dragon/dragon_roar2",
+         "entity/dragon/dragon_roar3",
+         "entity/dragon/dragon_roar4",
+         "entity/dragon/dragon_roar5"
+      ],
+      "subtitle": "subtitles.entity.ender_dragon.ambient",
+      "replace" : true
+   },
+   "entity.ender_dragon.growl": {
+      "sounds": [
+        {
+            "name" : "entity/dragon/dragon_growl1",
+            "weight" : 16
+        },
+        {
+            "name" : "entity/dragon/dragon_growl2",
+            "weight" : 16
+        },
+        {
+            "name" : "entity/dragon/dragon_growl3",
+            "weight" : 16
+        },
+         "entity/dragon/dragon_speak1",
+         "entity/dragon/dragon_speak2",
+         "entity/dragon/dragon_speak3",
+         "entity/dragon/dragon_speak4",
+         "entity/dragon/dragon_speak5",
+         "entity/dragon/dragon_speak6",
+         "entity/dragon/dragon_speak7",
+         "entity/dragon/dragon_speak8",
+         "entity/dragon/dragon_speak9",
+         "entity/dragon/dragon_speak10",
+         "entity/dragon/dragon_speak11"
+      ],
+      "subtitle": "subtitles.entity.ender_dragon.growl",
+      "replace" : true
+   },
+   "entity.ender_dragon.hurt": {
+      "sounds": [
+         "entity/dragon/dragon_pain1",
+         "entity/dragon/dragon_pain2",
+         "entity/dragon/dragon_pain3"
+      ],
+      "subtitle": "subtitles.entity.ender_dragon.hurt",
+      "replace" : true
+   },
+   "entity.ender_dragon.shoot": {
+      "sounds": ["entity/fireballer/fireball_big"],
+      "subtitle": "subtitles.entity.ender_dragon.shoot",
+      "replace" : true
+   },
+   "entity.ender_pearl.throw": {
+      "sounds": [
+          {
+              "name" : "misc/item_dropthrow",
+              "pitch" :  1.5,
+              "volume" : 0.5
+          }
+        ],
+      "subtitle": "subtitles.entity.ender_pearl.throw",
+      "replace" : true
+   },
+   "entity.enderman.teleport": {
+      "sounds": [
+        "misc/ender_teleport1",
+        "misc/ender_teleport2",
+        "misc/ender_teleport3",
+        "misc/ender_teleport4",
+        "misc/ender_teleport5",
+        "misc/ender_teleport6",
+        "misc/ender_teleport7",
+        "misc/ender_teleport8",
+        "misc/ender_teleport9",
+        "misc/ender_teleport10",
+        "misc/ender_teleport11",
+        "misc/ender_teleport12",
+        "misc/ender_teleport13"
+      ],
+      "subtitle": "subtitles.entity.enderman.teleport",
+      "replace" : true
+   },
+   "entity.experience_bottle.throw": {
+      "sounds": [
+          {
+              "name" : "misc/item_dropthrow",
+              "pitch" : 1.5,
+              "volume" : 0.5
+          }
+        ],
+      "subtitle": "subtitles.entity.potion.throw",
+      "replace" : true
+   },
+   "entity.experience_orb.pickup": {
+      "sounds": ["player/experience_orb"],
+      "subtitle": "subtitles.entity.experience_orb.pickup",
+      "replace" : true
+   },
+   "entity.firework_rocket.launch": {
+      "sounds": [
+        "misc/firework_launch1",
+        "misc/firework_launch2"
+      ],
+      "subtitle": "subtitles.entity.firework_rocket.launch",
+      "replace" : true
+   },
+   "entity.firework_rocket.shoot": {
+      "sounds": [
+        "misc/firework_launch1",
+        "misc/firework_launch2"
+      ],
+      "subtitle": "subtitles.entity.firework_rocket.launch",
+      "replace" : true
+   },
+   "entity.generic.big_fall": {
+      "sounds": ["entity/common/fall_big"],
+      "subtitle": "subtitles.entity.generic.big_fall",
+      "replace" : true
+   },
+   "entity.generic.burn": {
+      "sounds": ["misc/fdwhitemare_fire"],
+      "subtitle": "subtitles.entity.generic.burn",
+      "replace" : true
+   },
+   "entity.generic.death": {
+      "sounds": [
+         "entity/common/entity_die"
+      ],
+      "subtitle": "subtitles.entity.generic.death",
+      "replace" : true
+   },
+   "entity.generic.drink": {
+      "sounds": ["misc/food_slurp"],
+      "subtitle": "subtitles.entity.generic.drink",
+      "replace" : true
+   },
+   "entity.generic.eat": {
+      "sounds": [
+         "misc/food_eat"
+      ],
+      "subtitle": "subtitles.entity.generic.eat",
+      "replace" : true
+   },
+   "entity.generic.explode": {
+      "sounds": [
+        "misc/hl_explosion1",
+        "misc/hl_explosion2",
+        "misc/hl_explosion3",
+        "misc/hl_explosion4",
+        "misc/is_explosion1",
+        "misc/is_explosion2",
+        "misc/is_explosion3"
+      ],
+      "subtitle": "subtitles.entity.generic.explode",
+      "replace" : true
+   },
+   "entity.generic.hurt": {
+      "sounds": [
+        "entity/common/entity_damage1",
+        "entity/common/entity_damage2",
+        "entity/common/entity_damage3",
+        "entity/common/entity_damage4",
+        "entity/common/entity_damage5"
+      ],
+      "subtitle": "subtitles.entity.generic.hurt",
+      "replace" : true
+   },
+   "entity.generic.small_fall": {
+      "sounds": ["entity/common/fall_small"],
+      "subtitle": "subtitles.entity.generic.small_fall",
+      "replace" : true
+   },
+   "entity.ghast.shoot": {
+      "sounds": ["entity/fireballer/fireball_small"],
+      "subtitle": "subtitles.entity.ghast.shoot",
+      "replace" : true
+   },
+   "entity.horse.armor": {
+      "sounds": [
+        "entity/horse/equipment_equip1",
+        "entity/horse/equipment_equip2"
+      ],
+      "subtitle": "subtitles.entity.horse.armor",
+      "replace" : true
+   },
+   "entity.horse.saddle": {
+      "sounds": [
+        "entity/horse/equipment_equip1",
+        "entity/horse/equipment_equip2"
+      ],
+      "subtitle": "subtitles.entity.horse.saddle",
+      "replace" : true
+   },
+   "entity.hostile.big_fall": {
+      "sounds": ["entity/common/fall_big"],
+      "subtitle": "subtitles.entity.generic.big_fall",
+      "replace" : true
+   },
+   "entity.hostile.death": {
+      "sounds": [
+         "entity/common/entity_die"
+      ],
+      "subtitle": "subtitles.entity.generic.death",
+      "replace" : true
+   },
+   "entity.hostile.hurt": {
+      "sounds": [
+        "entity/common/entity_damage1",
+        "entity/common/entity_damage2",
+        "entity/common/entity_damage3",
+        "entity/common/entity_damage4",
+        "entity/common/entity_damage5"
+      ],
+      "subtitle": "subtitles.entity.generic.hurt",
+      "replace" : true
+   },
+   "entity.hostile.small_fall": {
+      "sounds": ["entity/common/fall_small"],
+      "subtitle": "subtitles.entity.generic.small_fall",
+      "replace" : true
+   },
+   "entity.iron_golem.attack": {
+      "sounds": [
+         "combat/trident/trident_throw1",
+         "combat/trident/trident_throw2"
+      ],
+      "subtitle": "subtitles.entity.iron_golem.attack",
+      "replace" : true
+   },
+   "entity.item.break": {
+      "sounds": [
+       {
+         "name": "misc/fragile_break",
+         "volume": 1.0,
+         "pitch": 2.6
+       }
+      ],
+      "subtitle": "subtitles.entity.item.break",
+      "replace" : true
+   },
+   "entity.item.pickup": {
+      "sounds": [
+        "misc/item_pickup1",
+        "misc/item_pickup2",
+        "misc/item_pickup3",
+        "misc/item_pickup4",
+        "misc/item_pickup5",
+        "misc/item_pickup6",
+        "misc/item_pickup7"
+      ],
+      "subtitle": "subtitles.entity.item.pickup",
+      "replace" : true
+   },
+   "entity.lightning_bolt.impact": {
+      "sounds": [
+        "misc/lightning_impact1",
+        "misc/lightning_impact2"
+      ],
+      "subtitle": "subtitles.entity.lightning_bolt.impact",
+      "replace" : true
+   },
+   "entity.lightning_bolt.thunder": {
+      "sounds": [
+         "misc/ambience_thunder1",
+         "misc/ambience_thunder2"
+      ],
+      "subtitle": "subtitles.entity.lightning_bolt.thunder",
+      "replace" : true
+   },
+   "entity.lingering_potion.throw": {
+      "sounds": [
+          {
+              "name" : "misc/item_dropthrow",
+              "pitch" : 1.5,
+              "volume" : 0.5
+          }
+        ],
+      "subtitle": "subtitles.entity.potion.throw",
+      "replace" : true
+   },
+   "entity.llama.chest": {
+      "sounds": [
+        "entity/horse/equipment_equip1",
+        "entity/horse/equipment_equip2"
+      ],
+      "subtitle": "subtitles.entity.llama.chest",
+      "replace" : true
+   },
+   "entity.pig.saddle": {
+      "sounds": [
+        "entity/horse/equipment_equip1",
+        "entity/horse/equipment_equip2"
+      ],
+      "subtitle": "subtitles.entity.pig.saddle",
+      "replace" : true
+   },
+   "entity.player.attack.crit": {
+      "sounds": [
+         {
+            "name": "player/player_crit1",
+            "volume": 0.7
+         },
+         {
+            "name": "player/player_crit2",
+            "volume": 0.7
+         },
+         {
+            "name": "player/player_crit3",
+            "volume": 0.7
+         }
+      ],
+      "subtitle" : "subtitles.entity.player.attack.crit",
+      "replace" : true
+   },
+   "entity.player.attack.knockback": {
+      "sounds": [
+         {
+            "name": "player/player_knockback",
+            "volume": 0.7
+         }
+      ],
+      "subtitle" : "subtitles.entity.player.attack.knockback",
+      "replace" : true
+   },
+   "entity.player.attack.nodamage": {
+      "sounds": [
+         {
+            "name": "player/player_attack1",
+            "volume": 0.7
+         },
+         {
+            "name": "player/player_attack2",
+            "volume": 0.7
+         }
+      ],
+      "subtitle" : "subtitles.entity.player.attack.weak",
+      "replace" : true
+   },
+   "entity.player.attack.strong": {
+      "sounds": [
+         {
+            "name": "player/player_attack1",
+            "volume": 0.6
+         },
+         {
+            "name": "player/player_attack2",
+            "volume": 0.7
+         }
+      ],
+      "subtitle" : "subtitles.entity.player.attack.strong",
+      "replace" : true
+   },
+   "entity.player.attack.sweep": {
+      "sounds": [
+         {
+            "name": "player/player_sweep1",
+            "volume": 0.7
+         },
+         {
+            "name": "player/player_sweep2",
+            "volume": 0.7
+         }
+      ],
+      "subtitle" : "subtitles.entity.player.attack.sweep",
+      "replace" : true
+   },
+   "entity.player.attack.weak": {
+      "sounds": [
+         {
+            "name": "player/player_miss1",
+            "volume": 0.7
+         },
+         {
+            "name": "player/player_miss2",
+            "volume": 0.7
+         }
+      ],
+      "subtitle" : "subtitles.entity.player.attack.weak",
+      "replace" : true
+   },
+   "entity.player.big_fall": {
+      "sounds": ["entity/common/fall_big"],
+      "subtitle": "subtitles.entity.generic.big_fall",
+      "replace" : true
+   },
+   "entity.player.burp": {
+      "sounds": ["misc/food_gulp"],
+      "subtitle": "subtitles.entity.player.burp",
+      "replace" : true
+   },
+   "entity.player.death": {
+      "sounds": [
+         "entity/common/entity_die"
+      ],
+      "subtitle": "subtitles.entity.player.death",
+      "replace" : true
+   },
+   "entity.player.hurt": {
+      "sounds": [
+        "entity/common/entity_damage1",
+        "entity/common/entity_damage2",
+        "entity/common/entity_damage3",
+        "entity/common/entity_damage4",
+        "entity/common/entity_damage5"
+      ],
+      "subtitle": "subtitles.entity.player.hurt",
+      "replace" : true
+   },
+   "entity.player.hurt_drown": {
+      "sounds": [
+         "player/player_drown1",
+         "player/player_drown2",
+         "player/player_drown3",
+         "player/player_drown4"
+      ],
+      "replace" : true
+   },
+   "entity.player.hurt_freeze": {
+      "sounds": [
+         "player/player_thorned1",
+         "player/player_thorned2"
+      ],
+      "replace" : true
+   },
+   "entity.player.hurt_on_fire": {
+      "sounds": [
+         "player/player_burn1",
+         "player/player_burn2",
+         "player/player_burn3"
+      ],
+      "replace" : true
+   },
+   "entity.player.hurt_sweet_berry_bush": {
+      "sounds": [
+         "player/player_thorned1",
+         "player/player_thorned2"
+      ],
+      "replace" : true
+   },
+   "entity.player.levelup": {
+      "sounds": ["player/experience_levelup"],
+      "subtitle": "subtitles.entity.player.levelup",
+      "replace" : true
+   },
+   "entity.player.small_fall": {
+      "sounds": ["entity/common/fall_small"],
+      "subtitle": "subtitles.entity.generic.small_fall",
+      "replace" : true
+   },
+   "entity.player.teleport": {
+      "sounds": [
+        "misc/ender_teleport1",
+        "misc/ender_teleport2",
+        "misc/ender_teleport3",
+        "misc/ender_teleport4",
+        "misc/ender_teleport5",
+        "misc/ender_teleport6",
+        "misc/ender_teleport7",
+        "misc/ender_teleport8",
+        "misc/ender_teleport9",
+        "misc/ender_teleport10",
+        "misc/ender_teleport11",
+        "misc/ender_teleport12",
+        "misc/ender_teleport13"
+      ],
+      "subtitle": "subtitles.entity.player.teleport",
+      "replace" : true
+   },
+   "entity.shulker.shoot": {
+      "sounds": [
+        "entity/shulker/shulker_shoot1",
+        "entity/shulker/shulker_shoot2"
+      ],
+      "subtitle": "subtitles.entity.shulker.shoot",
+      "replace" : true
+   },
+   "entity.shulker.teleport": {
+      "sounds": [
+        "misc/ender_teleport11"
+      ],
+      "subtitle": "subtitles.entity.shulker.teleport",
+      "replace" : true
+   },
+   "entity.shulker_bullet.hit": {
+      "sounds": [
+        "entity/shulker/shulker_impact1",
+        "entity/shulker/shulker_impact2"
+      ],
+      "subtitle": "subtitles.entity.shulker_bullet.hit",
+      "replace" : true
+   },
+   "entity.shulker_bullet.hurt": {
+      "sounds": [
+         "combat/ranged/arrow_impact1",
+         "combat/ranged/arrow_impact2",
+         "combat/ranged/arrow_impact3",
+         "combat/ranged/arrow_impact4",
+         "combat/ranged/arrow_impact5"
+      ],
+      "subtitle": "subtitles.entity.shulker_bullet.hurt",
+      "replace" : true
+   },
+   "entity.skeleton.shoot": {
+      "sounds": ["combat/ranged/bow_shoot"],
+      "subtitle": "subtitles.entity.skeleton.shoot",
+      "replace" : true
+   },
+   "entity.snow_golem.shoot": {
+      "sounds": ["misc/item_dropthrow"],
+      "subtitle": "subtitles.entity.snowball.throw",
+      "replace" : true
+   },
+   "entity.snowball.throw": {
+      "sounds": [
+          {
+              "name" : "misc/item_dropthrow",
+              "pitch" : 1.5,
+              "volume" : 0.5
+          }
+        ],
+      "subtitle": "subtitles.entity.snowball.throw",
+      "replace" : true
+   },
+   "entity.splash_potion.break": {
+      "sounds": [
+          {
+            "name": "misc/fragile_break",
+            "volume": 1.0,
+            "pitch": 4.0
+          }
+      ],
+      "subtitle": "subtitles.entity.potion.splash",
+      "replace" : true
+   },
+   "entity.splash_potion.throw": {
+      "sounds": [
+          {
+              "name" : "misc/item_dropthrow",
+              "pitch" : 1.5,
+              "volume" : 0.5
+          }
+        ],
+      "subtitle": "subtitles.entity.potion.throw",
+      "replace" : true
+   },
+   "entity.tnt.primed": {
+      "sounds": ["misc/gt_fuze"],
+      "subtitle": "subtitles.entity.tnt.primed",
+      "replace" : true
+   },
+   "entity.wandering_trader.drink_milk": {
+      "sounds": [
+         {
+            "name": "misc/food_slurp",
+            "volume": 0.65
+         },
+         {
+            "name": "misc/food_gulp",
+            "volume": 0.7
+         }
+      ],
+      "subtitle" : "subtitles.entity.wandering_trader.drink_milk",
+      "replace" : true
+   },
+   "entity.wandering_trader.drink_potion": {
+      "sounds": [
+         {
+            "name": "misc/food_slurp",
+            "volume": 0.65
+         },
+         {
+            "name": "misc/food_gulp",
+            "volume": 0.7
+         }
+      ],
+      "subtitle" : "subtitles.entity.wandering_trader.drink_potion",
+      "replace" : true
+   },
+   "entity.wandering_trader.disappeared": {
+      "sounds": [
+         {
+            "name": "misc/ender_teleport1",
+            "volume": 0.8
+         },
+         {
+            "name": "misc/ender_teleport4",
+            "volume": 0.8
+         }
+      ],
+      "subtitle" : "subtitles.entity.wandering_trader.disappeared",
+      "replace" : true
+   },
+   "entity.wandering_trader.reappeared": {
+      "sounds": [
+         {
+            "name": "misc/ender_teleport7",
+            "volume": 0.8
+         },
+         {
+            "name": "misc/ender_teleport8",
+            "volume": 0.8
+         }
+      ],
+      "subtitle" : "subtitles.entity.wandering_trader.reappeared",
+      "replace" : true
+   },
+    "entity.warden.agitated": {
+      "sounds": [
+        "entity/warden/warden_agitated1",
+        "entity/warden/warden_agitated2",
+        "entity/warden/warden_agitated3"
+      ],
+      "subtitle" : "subtitles.entity.warden.agitated",
+      "replace" : true
+    },
+    "entity.warden.angry": {
+      "sounds": [
+        "entity/warden/warden_angry1",
+        "entity/warden/warden_angry2",
+        "entity/warden/warden_angry3"
+      ],
+      "subtitle" : "subtitles.entity.warden.angry",
+      "replace" : true
+    },
+    "entity.warden.listening": {
+      "sounds": [
+        "entity/warden/warden_notice"
+      ],
+      "subtitle" : "subtitles.entity.warden.listening",
+      "replace" : true
+    },
+    "entity.warden.listening_angry": {
+      "sounds": [
+        {
+          "name": "entity/warden/warden_notice",
+          "pitch": 0.75
+        }
+      ],
+      "subtitle" : "subtitles.entity.warden.listening_angry",
+      "replace" : true
+    },
+    "entity.warden.sniff": {
+      "sounds": [
+        "entity/warden/warden_sniff"
+      ],
+      "subtitle" : "subtitles.entity.warden.sniff",
+      "replace" : true
+    },
+    "entity.warden.roar": {
+      "sounds": [
+        "entity/warden/warden_roar1",
+        "entity/warden/warden_roar2",
+        "entity/warden/warden_roar3"
+      ],
+      "subtitle" : "subtitles.entity.warden.roar",
+      "replace" : true
+    },
+    "entity.warden.step": {
+      "sounds": [
+        "entity/warden/warden_step1",
+        "entity/warden/warden_step2"
+      ],
+      "subtitle" : "subtitles.block.generic.footsteps",
+      "replace" : true
+    },
+    "entity.warden.ambient": {
+      "sounds": [
+        "entity/warden/warden_idle1",
+        "entity/warden/warden_idle2",
+        "entity/warden/warden_idle3",
+        "entity/warden/warden_idle4",
+        "entity/warden/warden_idle5"
+      ],
+      "subtitle" : "subtitles.entity.warden.ambient",
+      "replace" : true
+    },
+    "entity.warden.tendril_clicks": {
+      "sounds": [
+        "entity/warden/warden_tendril"
+      ],
+      "subtitle" : "subtitles.entity.warden.tendril_clicks",
+      "replace" : true
+    },
+    "entity.warden.sonic_boom": {
+      "sounds": [
+        "entity/warden/warden_boom1",
+        "entity/warden/warden_boom2",
+        "entity/warden/warden_boom3"
+      ],
+      "subtitle" : "subtitles.entity.warden.sonic_boom",
+      "replace" : true
+    },
+    "entity.warden.sonic_charge": {
+      "sounds": [
+        {
+          "name": "entity/warden/warden_charge"
+        }
+      ],
+      "subtitle" : "subtitles.entity.warden.sonic_charge",
+      "replace" : true
+    },
+    "entity.warden.hurt": {
+      "sounds": [
+        "entity/warden/warden_pain1",
+        "entity/warden/warden_pain2",
+        "entity/warden/warden_pain3"
+      ],
+      "subtitle" : "subtitles.entity.warden.hurt",
+      "replace" : true
+    },
+    "entity.warden.death": {
+      "sounds": [
+        {
+          "name": "entity/warden/warden_death1",
+          "pitch": 1
+        },
+        {
+          "name": "entity/warden/warden_death2",
+          "pitch": 1
+        }
+      ],
+      "subtitle" : "subtitles.entity.warden.death",
+      "replace" : true
+    },
+   "entity.witch.drink": {
+      "sounds": [
+         "misc/food_gulp"
+      ],
+      "subtitle": "subtitles.entity.witch.drink",
+      "replace" : true
+   },
+   "entity.witch.throw": {
+      "sounds": [
+          {
+              "name" : "misc/item_dropthrow",
+              "pitch" : 1.5,
+              "volume" : 0.5
+          }
+        ],
+      "subtitle": "subtitles.entity.witch.throw",
+      "replace" : true
+   },
+   "entity.wither.break_block": {
+      "sounds": [
+        "misc/hl_explosion1",
+        "misc/hl_explosion2",
+        "misc/hl_explosion3",
+        "misc/hl_explosion4",
+        "misc/is_explosion1",
+        "misc/is_explosion2",
+        "misc/is_explosion3"
+      ],
+      "subtitle": "subtitles.entity.wither.shoot",
+      "replace" : true
+   },
+   "entity.wither.shoot": {
+      "sounds": [
+        "misc/firework_launch1",
+        "misc/firework_launch2"
+      ],
+      "subtitle": "subtitles.entity.wither.shoot",
+      "replace" : true
+   },
+   "item.bottle.empty": {
+      "sounds": [
+         "misc/bottle_harvest"
+      ],
+      "replace" : true
+   },
+   "item.bottle.fill": {
+      "sounds": [
+         "misc/bottle_harvest"
+      ],
+      "subtitle": "subtitles.item.bottle.fill",
+      "replace" : true
+   },
+   "item.bottle.fill_dragonbreath": {
+      "sounds": [
+         "misc/bottle_harvest"
+      ],
+      "subtitle": "subtitles.item.bottle.fill",
+      "replace" : true
+   },
+   "item.chorus_fruit.teleport": {
+      "sounds": [
+        "misc/ender_teleport1",
+        "misc/ender_teleport2",
+        "misc/ender_teleport3",
+        "misc/ender_teleport4",
+        "misc/ender_teleport5",
+        "misc/ender_teleport6",
+        "misc/ender_teleport7",
+        "misc/ender_teleport8",
+        "misc/ender_teleport9",
+        "misc/ender_teleport10",
+        "misc/ender_teleport11",
+        "misc/ender_teleport12",
+        "misc/ender_teleport13"
+      ],
+      "subtitle": "subtitles.item.chorus_fruit.teleport",
+      "replace" : true
+   },
+   "item.crossbow.shoot": {
+      "sounds": [
+         {
+            "name": "combat/ranged/crossbow_shoot",
+            "volume": 0.8,
+            "pitch": 1
+         }
+      ],
+      "subtitle": "subtitles.item.crossbow.shoot",
+      "replace" : true
+   },
+   "item.crossbow.hit": {
+      "sounds": [
+         "combat/ranged/arrow_impact1",
+         "combat/ranged/arrow_impact2",
+         "combat/ranged/arrow_impact3",
+         "combat/ranged/arrow_impact4",
+         "combat/ranged/arrow_impact5"
+      ],
+      "subtitle": "subtitles.item.crossbow.hit",
+      "replace" : true
+   },
+   "item.elytra.flying": {
+      "sounds": [
+         {
+            "name": "item/elytra/elytra_loop",
+            "volume": 0.6
+         }
+      ],
+      "replace" : true
+   },
+   "item.firecharge.use": {
+      "sounds": ["entity/fireballer/fireball_small"],
+      "subtitle": "subtitles.item.firecharge.use",
+      "replace" : true
+   },
+   "item.flintandsteel.use": {
+      "sounds": ["misc/flintnsteel_ignite"],
+      "subtitle": "subtitles.item.flintandsteel.use",
+      "replace" : true
+   },
+   "item.shield.block": {
+      "sounds": [
+         "combat/shield/shield_block1",
+         "combat/shield/shield_block2"
+      ],
+      "subtitle": "subtitles.item.shield.block",
+      "replace" : true
+   },
+   "item.shield.break": {
+      "sounds": ["combat/shield/shield_stun"],
+      "subtitle": "subtitles.entity.item.break",
+      "replace" : true
+   },
+   "item.totem.use": {
+      "sounds": ["misc/totem_activate"],
+      "subtitle": "subtitles.item.totem.use",
+      "replace" : true
+   },
+   "item.trident.hit": {
+      "sounds": [
+        "combat/trident/trident_hit1",
+        "combat/trident/trident_hit2",
+        "combat/trident/trident_hit3",
+        "combat/trident/trident_hit4",
+        "combat/trident/trident_hit5"
+      ],
+      "subtitle": "subtitles.item.trident.hit",
+      "replace" : true
+   },
+   "item.trident.hit_ground": {
+      "sounds": [
+        {
+          "name": "combat/trident/trident_miss1",
+          "volume": 0.9,
+          "pitch": 1
+        },
+        {
+          "name": "combat/trident/trident_miss2",
+          "volume": 0.9,
+          "pitch": 1
+        },
+        {
+          "name": "combat/trident/trident_miss3",
+          "volume": 0.9,
+          "pitch": 1
+        },
+        {
+          "name": "combat/trident/trident_miss4",
+          "volume": 0.9,
+          "pitch": 1
+        }
+      ],
+      "subtitle": "subtitles.item.trident.hit_ground",
+      "replace" : true
+   },
+   "item.trident.return": {
+      "sounds": [
+        {
+          "name": "combat/trident/trident_loyalty1",
+          "volume": 0.8,
+          "pitch": 1
+        },
+        {
+          "name": "combat/trident/trident_loyalty2",
+          "volume": 0.8,
+          "pitch": 1
+        }
+      ],
+      "subtitle": "subtitles.item.trident.return",
+      "replace" : true
+   },
+   "item.trident.riptide_1": {
+      "sounds": ["combat/trident/trident_riptide1"],
+      "subtitle": "subtitles.item.trident.riptide",
+      "replace" : true
+   },
+   "item.trident.riptide_2": {
+      "sounds": ["combat/trident/trident_riptide2"],
+      "subtitle": "subtitles.item.trident.riptide",
+      "replace" : true
+   },
+   "item.trident.riptide_3": {
+      "sounds": ["combat/trident/trident_riptide3"],
+      "subtitle": "subtitles.item.trident.riptide",
+      "replace" : true
+   },
+   "item.trident.throw": {
+      "sounds": [
+         "combat/trident/trident_throw1",
+         "combat/trident/trident_throw2"
+      ],
+      "subtitle": "subtitles.item.trident.throw",
+      "replace" : true
+   },
+   "item.trident.thunder": {
+      "sounds": [
+         "combat/trident/trident_channeling"
+      ],
+      "subtitle": "subtitles.item.trident.thunder",
+      "replace" : true
+   },
+   "ui.button.click": {
+      "sounds": ["ui/button_release"],
+      "replace" : true
+   },
+   "ui.toast.in": {
+      "sounds": [
+         {
+            "name": "ui/ui_toast",
+            "volume": 0.4
+         }
+      ],
+      "replace" : true
+   },
+   "ui.toast.out": {
+      "sounds": [
+         {
+            "name": "ui/ui_toastdown",
+            "volume": 0.4
+         }
+      ],
+      "replace" : true
+   }
+}

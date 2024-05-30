@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "§8Personal resound. By §dRenegade4339§8. Credits in the pack folder.§r",
+    "name": "§dTHE RENEGADE RESOUND§r",
+    "uuid": "6d9732ee-0e77-4d34-95ff-f8ecc40d4e0b",
+    "version": [
+      0,
+      0,
+      3
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      30
+    ]
+  },
+  "modules": [
+    {
+      "description": "rnresound",
+      "version": [
+        0,
+        0,
+        3
+      ],
+      "uuid": "4866a6c7-9d8c-4e7e-8def-b7e5f8e62466",
+      "type": "resources"
+    }
+  ]
+}

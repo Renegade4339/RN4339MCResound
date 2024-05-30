@@ -1,0 +1,1072 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "ambient.weather.thunder": {
+    "category": "weather",
+    "min_distance": 100.0,
+    "sounds": [
+      {
+        "name": "assets/minecraft/sounds/misc/ambience_thunder1",
+        "volume": 2.0
+      },
+      {
+        "name": "assets/minecraft/sounds/misc/ambience_thunder2",
+        "volume": 2.0
+      }
+    ]
+    },
+    "ambient.weather.lightning.impact": {
+      "category": "weather",
+      "sounds": [
+        "assets/minecraft/sounds/misc/lightning_impact1",
+        "assets/minecraft/sounds/misc/lightning_impact2"
+      ]
+    },
+    "cauldron.explode": {
+      "category": "block",
+      "sounds": [
+        "assets/minecraft/sounds/misc/hl_explosion2"
+      ]
+    },
+    "cauldron.takepotion": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/misc/bottle_harvest",
+          "volume": 0.1
+        }
+      ]
+    },
+    "cauldron.takewater": {
+      "category": "block",
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/misc/bottle_harvest",
+          "volume": 0.1
+        }
+      ]
+    },
+    "damage.fallbig": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/entity/common/fall_big",
+          "volume": 2
+        }
+      ]
+    },
+    "damage.fallsmall": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/entity/common/fall_small",
+          "volume": 2
+        }
+      ]
+    },
+    "game.player.attack.strong": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/player/player_attack1",
+          "volume": 0.4
+        },
+        {
+          "name": "assets/minecraft/sounds/player/player_attack2",
+          "volume": 0.4
+        }
+      ]
+    },
+    "game.player.attack.weak": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/player/player_miss1",
+          "volume": 0.4
+        },
+        {
+          "name": "assets/minecraft/sounds/player/player_miss2",
+          "volume": 0.4
+        }
+      ]
+    },
+    "game.player.hurt": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/entity/common/entity_damage1",
+        "assets/minecraft/sounds/entity/common/entity_damage2",
+        "assets/minecraft/sounds/entity/common/entity_damage3",
+        "assets/minecraft/sounds/entity/common/entity_damage4",
+        "assets/minecraft/sounds/entity/common/entity_damage5"
+      ]
+    },
+    "game.player.die": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/entity/common/entity_die"
+      ]
+    },
+    "mob.player.hurt_drown": {
+      "category": "player",
+      "sounds": [
+         "assets/minecraft/sounds/player/player_drown1",
+         "assets/minecraft/sounds/player/player_drown2",
+         "assets/minecraft/sounds/player/player_drown3",
+         "assets/minecraft/sounds/player/player_drown4"
+      ]
+    },
+    "mob.player.hurt_on_fire": {
+      "category": "player",
+      "sounds": [
+         "assets/minecraft/sounds/player/player_burn1",
+         "assets/minecraft/sounds/player/player_burn2",
+         "assets/minecraft/sounds/player/player_burn3"
+      ]
+    },
+    "mob.player.hurt_freeze": {
+      "category": "player",
+      "sounds": [
+         "assets/minecraft/sounds/player/player_thorned1",
+         "assets/minecraft/sounds/player/player_thorned2"
+      ]
+    },
+    "mob.player.hurt_sweet_berry_bush": {
+      "category": "player",
+      "sounds": [
+         "assets/minecraft/sounds/player/player_thorned1",
+         "assets/minecraft/sounds/player/player_thorned2"
+      ]
+    },
+    "fire.fire": {
+      "category": "block",
+      "sounds": [
+        "assets/minecraft/sounds/misc/fdwhitemare_fire"
+      ]
+    },
+    "fire.ignite": {
+      "category": "block",
+      "sounds": [
+        "assets/minecraft/sounds/misc/flintandsteel_ignite"
+      ]
+    },
+    "firework.launch": {
+      "sounds": [
+        "assets/minecraft/sounds/misc/firework_launch1",
+        "assets/minecraft/sounds/misc/firework_launch2"
+      ]
+    },
+    "firework.shoot": {
+      "sounds": [
+        "assets/minecraft/sounds/misc/firework_launch1",
+        "assets/minecraft/sounds/misc/firework_launch2"
+      ]
+    },
+    "mob.drowned.shoot": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/combat/trident/trident_throw1",
+        "assets/minecraft/sounds/combat/trident/trident_throw2"
+      ]
+    },
+    "mob.armor_stand.break": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/entity/armorstand/stand_break1",
+        "assets/minecraft/sounds/entity/armorstand/stand_break2",
+        "assets/minecraft/sounds/entity/armorstand/stand_break3"
+      ]
+    },
+    "mob.armor_stand.hit": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/entity/armorstand/stand_hit1",
+        "assets/minecraft/sounds/entity/armorstand/stand_hit2",
+        "assets/minecraft/sounds/entity/armorstand/stand_hit3",
+        "assets/minecraft/sounds/entity/armorstand/stand_hit4"
+      ]
+    },
+    "mob.armor_stand.land": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/entity/armorstand/stand_land"
+      ]
+    },
+    "mob.blaze.shoot": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/entity/fireballer/fireball_small",
+          "volume": 2
+        }
+      ],
+      "subtitle": "subtitles.entity.blaze.shoot"
+    },
+    "mob.endermen.portal": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/misc/ender_teleport1",
+        "assets/minecraft/sounds/misc/ender_teleport2",
+        "assets/minecraft/sounds/misc/ender_teleport3",
+        "assets/minecraft/sounds/misc/ender_teleport4",
+        "assets/minecraft/sounds/misc/ender_teleport5",
+        "assets/minecraft/sounds/misc/ender_teleport6",
+        "assets/minecraft/sounds/misc/ender_teleport7",
+        "assets/minecraft/sounds/misc/ender_teleport8",
+        "assets/minecraft/sounds/misc/ender_teleport9",
+        "assets/minecraft/sounds/misc/ender_teleport10",
+        "assets/minecraft/sounds/misc/ender_teleport11",
+        "assets/minecraft/sounds/misc/ender_teleport12",
+        "assets/minecraft/sounds/misc/ender_teleport13"
+      ]
+    },
+    "mob.ghast.fireball": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/entity/fireballer/fireball_big"
+      ]
+    },
+    "mob.elderguardian.curse": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/entity/dragon/dragon_roar1",
+        "assets/minecraft/sounds/entity/dragon/dragon_roar2"
+      ]
+    },
+    "mob.horse.armor": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/entity/horse/equipment_equip1",
+        "assets/minecraft/sounds/entity/horse/equipment_equip2"
+      ]
+    },
+    "mob.horse.saddle": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/entity/horse/equipment_equip1",
+        "assets/minecraft/sounds/entity/horse/equipment_equip2"
+      ]
+    },
+    "mob.irongolem.throw": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/combat/trident/trident_throw1",
+        "assets/minecraft/sounds/combat/trident/trident_throw2"
+      ]
+    },
+    "mob.shulker.shoot": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/entity/shulker/shulker_shoot1",
+        "assets/minecraft/sounds/entity/shulker/shulker_shoot2"
+      ]
+    },
+    "mob.shulker.teleport": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/misc/ender_teleport11"
+      ]
+    },
+    "mob.shulker.bullet.hit": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/entity/shulker/shulker_impact1",
+        "assets/minecraft/sounds/entity/shulker/shulker_impact2"
+      ]
+    },
+    "mob.snowgolem.shoot": {
+      "sounds": [
+        "assets/minecraft/sounds/misc/item_dropthrow"
+      ]
+    },
+    "item.trident.hit_ground": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_miss1",
+          "volume": 0.9,
+          "pitch": 1
+        },
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_miss2",
+          "volume": 0.9,
+          "pitch": 1
+        },
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_miss3",
+          "volume": 0.9,
+          "pitch": 1
+        },
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_miss4",
+          "volume": 0.9,
+          "pitch": 1
+        }
+      ]
+    },
+    "item.trident.hit": {
+      "sounds": [
+        "assets/minecraft/sounds/combat/trident/trident_hit1",
+        "assets/minecraft/sounds/combat/trident/trident_hit2",
+        "assets/minecraft/sounds/combat/trident/trident_hit3",
+        "assets/minecraft/sounds/combat/trident/trident_hit4",
+        "assets/minecraft/sounds/combat/trident/trident_hit5"
+      ]
+    },
+    "item.trident.return": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_loyalty1",
+          "volume": 0.8,
+          "pitch": 1
+        },
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_loyalty2",
+          "volume": 0.8,
+          "pitch": 1
+        }
+      ]
+    },
+    "item.trident.riptide_1": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_riptide1",
+          "volume": 1,
+          "pitch": 1,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "item.trident.riptide_2": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_riptide2",
+          "volume": 1,
+          "pitch": 1,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "item.trident.riptide_3": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_riptide3",
+          "volume": 1,
+          "pitch": 1,
+          "load_on_low_memory": true
+        }
+      ]
+    },
+    "item.trident.throw": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_throw1",
+          "volume": 1,
+          "pitch": 1
+        },
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_throw2",
+          "volume": 1,
+          "pitch": 1
+        }
+      ]
+    },
+    "random.throw": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/misc/item_dropthrow",
+          "volume": 0.25,
+          "pitch": 1
+        }
+      ]
+    },
+    "item.trident.thunder": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_channeling",
+          "volume": 4.0
+        }
+      ]
+    },
+    "item.shield.block": {
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/combat/shield/shield_block1",
+          "volume": 0.5
+        },
+        {
+          "name": "assets/minecraft/sounds/combat/shield/shield_block2",
+          "volume": 0.5
+        }
+      ]
+    },
+    "mob.wanderingtrader.disappeared": {
+      "sounds": [
+        "assets/minecraft/sounds/misc/ender_teleport5"
+      ]
+    },
+    "mob.wanderingtrader.drink_milk": {
+      "sounds": [
+        "assets/minecraft/sounds/misc/food_slurp"
+      ]
+    },
+    "mob.wanderingtrader.drink_potion": {
+      "sounds": [
+        "assets/minecraft/sounds/misc/food_gulp"
+      ]
+    },
+    "mob.witch.drink": {
+      "sounds": [
+        "assets/minecraft/sounds/misc/food_gulp"
+      ]
+    },
+    "mob.witch.throw": {
+      "sounds": [
+        "assets/minecraft/sounds/misc/item_dropthrow"
+      ]
+    },
+    "mob.wither.shoot": {
+      "sounds": [
+        "assets/minecraft/sounds/misc/firework_launch1",
+        "assets/minecraft/sounds/misc/firework_launch2"
+      ]
+    },
+    "portal.travel": {
+      "category": "ui",
+      "sounds": [
+        "assets/minecraft/sounds/misc/ender_teleport7"
+      ]
+    },
+    "random.bow": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/combat/ranged/bow_shoot"
+      ]
+    },
+    "random.bowhit": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/combat/ranged/arrow_impact1",
+        "assets/minecraft/sounds/combat/ranged/arrow_impact2",
+        "assets/minecraft/sounds/combat/ranged/arrow_impact3",
+        "assets/minecraft/sounds/combat/ranged/arrow_impact4",
+        "assets/minecraft/sounds/combat/ranged/arrow_impact5"
+      ]
+    },
+    "crossbow.shoot": {
+      "sounds": [
+        "assets/minecraft/sounds/combat/ranged/crossbow_shoot"
+      ]
+    },
+    "random.break": {
+      "category": "player",
+      "sounds": [
+      {
+        "name": "assets/minecraft/sounds/misc/fragile_break",
+        "volume": 1.0,
+        "pitch": 1.5
+      }
+     ]
+    },
+    "random.burp": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/misc/food_gulp"
+      ]
+    },
+    "random.drink": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/misc/food_slurp"
+      ]
+    },
+    "random.eat": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/misc/food_eat"
+      ]
+    },
+    "random.explode": {
+      "category": "block",
+      "sounds": [
+        "assets/minecraft/sounds/misc/hl_explosion1",
+        "assets/minecraft/sounds/misc/hl_explosion2",
+        "assets/minecraft/sounds/misc/hl_explosion3",
+        "assets/minecraft/sounds/misc/hl_explosion4",
+        "assets/minecraft/sounds/misc/is_explosion1",
+        "assets/minecraft/sounds/misc/is_explosion2",
+        "assets/minecraft/sounds/misc/is_explosion3"
+      ]
+    },
+    "random.orb": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/player/experience_orb"
+      ]
+    },
+    "random.levelup": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/player/experience_levelup"
+      ]
+    },
+    "random.pop": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/misc/item_pickup1",
+        "assets/minecraft/sounds/misc/item_pickup2",
+        "assets/minecraft/sounds/misc/item_pickup3",
+        "assets/minecraft/sounds/misc/item_pickup4",
+        "assets/minecraft/sounds/misc/item_pickup5",
+        "assets/minecraft/sounds/misc/item_pickup6",
+        "assets/minecraft/sounds/misc/item_pickup7"
+      ]
+    },
+    "random.pop2": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/misc/item_dropthrow"
+      ]
+    },
+    "random.hurt": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/entity/common/entity_damage1",
+        "assets/minecraft/sounds/entity/common/entity_damage2",
+        "assets/minecraft/sounds/entity/common/entity_damage3",
+        "assets/minecraft/sounds/entity/common/entity_damage4",
+        "assets/minecraft/sounds/entity/common/entity_damage5"
+      ]
+    },
+    "random.toast": {
+      "category": "ui",
+      "sounds": [
+        "assets/minecraft/sounds/ui/ui_toast"
+      ]
+    },
+    "random.totem": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/misc/totem_activate"
+      ]
+    },
+
+    "block.jump": {
+      "category": "neutral",
+      "sounds": [
+       {
+         "name": "assets/minecraft/sounds/player/player_jump1",
+         "volume": 0.5
+       },
+       {
+         "name": "assets/minecraft/sounds/player/player_jump2",
+         "volume": 0.5
+       }
+      ]
+    },
+    "block.land": {
+      "category": "neutral",
+      "sounds": [
+       {
+         "name": "assets/minecraft/sounds/player/player_land",
+         "volume": 0.5
+       }
+      ]
+    },
+    "fragile.break": {
+      "category": "neutral",
+     "sounds": [
+      {
+        "name": "assets/minecraft/sounds/misc/fragile_break",
+        "volume": 1.0,
+        "pitch": 3.5
+      }
+     ]
+    },
+    "fragile.crack": {
+      "category": "neutral",
+     "sounds": [
+      {
+        "name": "assets/minecraft/sounds/misc/fragile_crack",
+        "volume": 1.0,
+        "pitch": 1.5
+      }
+     ]
+    },
+
+    "mob.enderdragon.hit": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_pain1",
+          "volume": 7
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_pain2",
+          "volume": 7
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_pain3",
+          "volume": 7
+        }
+      ]
+    },
+    
+    
+    //gross hack to make an illusion of rarity of the dragon
+    //speaking to the player(s)
+    "mob.enderdragon.growl": {
+      "category": "hostile",
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar1",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar2",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar3",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar4",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar5",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_growl1",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_growl2",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_growl3",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar1",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar2",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar3",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar4",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar5",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_growl1",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_growl2",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_growl3",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar1",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar2",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar3",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar4",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_roar5",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_growl1",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_growl2",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_growl3",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak1",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak2",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak3",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak4",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak5",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak6",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak7",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak8",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak9",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak10",
+          "volume": 8
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/dragon/dragon_speak11",
+          "volume": 8
+        }
+      ]
+    },
+
+    //Java Aspects Compatibility
+    "entity.item.pickup": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/misc/item_pickup1",
+        "assets/minecraft/sounds/misc/item_pickup2",
+        "assets/minecraft/sounds/misc/item_pickup3",
+        "assets/minecraft/sounds/misc/item_pickup4",
+        "assets/minecraft/sounds/misc/item_pickup5",
+        "assets/minecraft/sounds/misc/item_pickup6",
+        "assets/minecraft/sounds/misc/item_pickup7"
+      ]
+    },
+    "entity.pillager.shoot": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/combat/ranged/crossbow_shoot"
+      ]
+    },
+    "entity.skeleton.shoot": {
+      "category": "neutral",
+      "sounds": [
+        "assets/minecraft/sounds/combat/ranged/bow_shoot"
+      ]
+    },
+    "entity.player.attack.crit": {
+      "category": "player",
+      "sounds": [
+         {
+            "name": "assets/minecraft/sounds/player/player_crit1",
+            "volume": 0.7
+         },
+         {
+            "name": "assets/minecraft/sounds/player/player_crit2",
+            "volume": 0.7
+         },
+         {
+            "name": "assets/minecraft/sounds/player/player_crit3",
+            "volume": 0.7
+         }
+      ]
+    },
+    "entity.player.attack.knockback": {
+      "category": "player",
+      "sounds": [
+         {
+            "name": "assets/minecraft/sounds/player/player_knockback",
+            "volume": 0.7
+         }
+      ]
+    },
+    "entity.player.attack.nodamage": {
+      "category": "player",
+      "sounds": [
+         {
+            "name": "assets/minecraft/sounds/player/player_attack1",
+            "volume": 0.7
+         },
+         {
+            "name": "assets/minecraft/sounds/player/player_attack2",
+            "volume": 0.7
+         }
+      ]
+    },
+    "entity.player.attack.strong": {
+      "category": "player",
+      "sounds": [
+         {
+            "name": "assets/minecraft/sounds/player/player_attack1",
+            "volume": 0.6
+         },
+         {
+            "name": "assets/minecraft/sounds/player/player_attack2",
+            "volume": 0.7
+         }
+      ]
+    },
+    "entity.player.attack.sweep": {
+      "category": "player",
+      "sounds": [
+         {
+            "name": "assets/minecraft/sounds/player/player_sweep1",
+            "volume": 0.7
+         },
+         {
+            "name": "assets/minecraft/sounds/player/player_sweep2",
+            "volume": 0.7
+         }
+      ]
+    },
+    "entity.player.attack.weak": {
+      "category": "player",
+      "sounds": [
+         {
+            "name": "assets/minecraft/sounds/player/player_miss1",
+            "volume": 0.7
+         },
+         {
+            "name": "assets/minecraft/sounds/player/player_miss2",
+            "volume": 0.7
+         }
+      ]
+    },
+    "entity.player.hurt_drown": {
+      "category": "player",
+      "sounds": [
+         "assets/minecraft/sounds/player/player_drown1",
+         "assets/minecraft/sounds/player/player_drown2",
+         "assets/minecraft/sounds/player/player_drown3",
+         "assets/minecraft/sounds/player/player_drown4"
+      ]
+    },
+    "entity.player.hurt_freeze": {
+      "category": "player",
+      "sounds": [
+         "assets/minecraft/sounds/player/player_thorned1",
+         "assets/minecraft/sounds/player/player_thorned2"
+      ]
+    },
+    "entity.player.hurt_on_fire": {
+      "category": "player",
+      "sounds": [
+         "assets/minecraft/sounds/player/player_burn1",
+         "assets/minecraft/sounds/player/player_burn2",
+         "assets/minecraft/sounds/player/player_burn3"
+      ]
+    },
+    "entity.player.hurt_sweet_berry_bush": {
+      "category": "player",
+      "sounds": [
+         "assets/minecraft/sounds/player/player_thorned1",
+         "assets/minecraft/sounds/player/player_thorned2"
+      ]
+    },
+    "item.trident.return": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_loyalty1",
+          "volume": 0.8,
+          "pitch": 1
+        },
+        {
+          "name": "assets/minecraft/sounds/combat/trident/trident_loyalty2",
+          "volume": 0.8,
+          "pitch": 1
+        }
+      ]
+    },
+
+    //generic sounds. for convenience
+  "game.generic.hurt": {
+    "category": "player",
+    "sounds": [
+        "assets/minecraft/sounds/entity/common/entity_damage1",
+        "assets/minecraft/sounds/entity/common/entity_damage2",
+        "assets/minecraft/sounds/entity/common/entity_damage3",
+        "assets/minecraft/sounds/entity/common/entity_damage4",
+        "assets/minecraft/sounds/entity/common/entity_damage5"
+    ]
+  },
+  "game.generic.die": {
+    "category": "player",
+    "sounds": [
+      "assets/minecraft/sounds/entity/common/entity_die"
+    ]
+  },
+
+    "mob.warden.agitated": {
+      "category": "hostile",
+      "max_distance": 80.0,
+      "sounds": [
+        "assets/minecraft/sounds/entity/warden/warden_agitated1",
+        "assets/minecraft/sounds/entity/warden/warden_agitated2",
+        "assets/minecraft/sounds/entity/warden/warden_agitated3"
+      ]
+    },
+    "mob.warden.angry": {
+      "category": "hostile",
+      "max_distance": 80.0,
+      "sounds": [
+        "assets/minecraft/sounds/entity/warden/warden_angry1",
+        "assets/minecraft/sounds/entity/warden/warden_angry2",
+        "assets/minecraft/sounds/entity/warden/warden_angry3"
+      ]
+    },
+    "mob.warden.listening": {
+      "category": "hostile",
+      "max_distance": 160.0,
+      "sounds": [
+        "assets/minecraft/sounds/entity/warden/warden_notice"
+      ]
+    },
+    "mob.warden.listening_angry": {
+      "category": "hostile",
+      "max_distance": 160.0,
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/entity/warden/warden_notice",
+          "pitch": 0.75
+        }
+      ]
+    },
+    "mob.warden.sniff": {
+      "category": "hostile",
+      "max_distance": 80.0,
+      "sounds": [
+        "assets/minecraft/sounds/entity/warden/warden_sniff"
+      ]
+    },
+    "mob.warden.roar": {
+      "category": "hostile",
+      "max_distance": 48.0,
+      "sounds": [
+        "assets/minecraft/sounds/entity/warden/warden_roar1",
+        "assets/minecraft/sounds/entity/warden/warden_roar2",
+        "assets/minecraft/sounds/entity/warden/warden_roar3"
+      ]
+    },
+    "mob.warden.step": {
+      "category": "hostile",
+      "max_distance": 160.0,
+      "sounds": [
+        "assets/minecraft/sounds/entity/warden/warden_step1",
+        "assets/minecraft/sounds/entity/warden/warden_step2"
+      ]
+    },
+    "mob.warden.idle": {
+      "category": "hostile",
+      "max_distance": 64.0,
+      "sounds": [
+        "assets/minecraft/sounds/entity/warden/warden_idle1",
+        "assets/minecraft/sounds/entity/warden/warden_idle2",
+        "assets/minecraft/sounds/entity/warden/warden_idle3",
+        "assets/minecraft/sounds/entity/warden/warden_idle4",
+        "assets/minecraft/sounds/entity/warden/warden_idle5"
+      ]
+    },
+    "mob.warden.clicking": {
+      "category": "hostile",
+      "max_distance": 80.0,
+      "sounds": [
+        "assets/minecraft/sounds/entity/warden/warden_tendril"
+      ]
+    },
+    "mob.warden.sonic_boom": {
+      "category": "hostile",
+      "max_distance": 160.0,
+      "sounds": [
+        "assets/minecraft/sounds/entity/warden/warden_boom1",
+        "assets/minecraft/sounds/entity/warden/warden_boom2",
+        "assets/minecraft/sounds/entity/warden/warden_boom3"
+      ]
+    },
+    "mob.warden.sonic_charge": {
+      "category": "hostile",
+      "max_distance": 160.0,
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/entity/warden/warden_charge"
+        }
+      ]
+    },
+    "mob.warden.hurt": {
+      "category": "hostile",
+      //may the suffer be a reminder that someone
+      //is very insane...
+      "max_distance": 80.0,
+      "sounds": [
+        "assets/minecraft/sounds/entity/warden/warden_pain1",
+        "assets/minecraft/sounds/entity/warden/warden_pain2",
+        "assets/minecraft/sounds/entity/warden/warden_pain3"
+      ]
+    },
+    "mob.warden.death": {
+      "category": "hostile",
+      //let the screams be audible...
+      "max_distance": 160.0,
+      "pitch": 1.0,
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/entity/warden/warden_death1",
+          "pitch": 1
+        },
+        {
+          "name": "assets/minecraft/sounds/entity/warden/warden_death2",
+          "pitch": 1
+        }
+      ]
+    },
+
+//LOL LMAO
+//idk why this is in the assets/gui/dist directory
+//instead of assets/resource_packs
+  "tokens.vanilla.release": {
+    "category": "ui",
+    "sounds": [
+      "assets/minecraft/sounds/ui/button_release"
+    ]
+  },
+  "tokens.vanilla.snes_pop": {
+    "category": "ui",
+    "sounds": [
+      "assets/minecraft/sounds/ui/button_pop"
+    ]
+  },
+  "tokens.vanilla.modal_hide": {
+    "category": "ui",
+    "sounds": [
+      "assets/minecraft/sounds/ui/button_hide"
+    ]
+  }
+ }
+}
