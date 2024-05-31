@@ -10,8 +10,15 @@ Raven Software - Hexen: Beyond Heretic
 Brutal Half-Life Dev Team - Brutal Half-Life
 BD Dev team - Brutal Doom
 EmeraldCoastt - Brutal Doom Platinum
-New World Interactive - Insurgency: Sandstorm
+New World Interactive - Insurgency
 GT Interactive - Blood
 SEGA - PSO Nova
 Tripwire Interactive - Killing Floor
 NetherRealm Studios - Mortal Kombat 10
+a1337spy - InsurgencySFX sound pack (https://gitlab.com/a1337spy/insurgencysfx)
+
+Reference for individual sound events:
+Sound Event - Person/Group/Company
+
+tripwire_trigger - Mike Koenig
+warden_boom2 and warden_boom3 - Magmacow, Team Shanghai Alice, Bouncy, New World Interactive
