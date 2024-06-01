@@ -946,17 +946,63 @@
       "subtitle": "subtitles.entity.witch.throw",
       "replace" : true
    },
+   "entity.wither.ambient": {
+      "sounds": [
+        "entity/wither/wither_idle1",
+        "entity/wither/wither_idle2",
+        "entity/wither/wither_idle3",
+        "entity/wither/wither_idle4",
+        "entity/wither/wither_idle5",
+        "entity/wither/wither_idle6",
+        "entity/wither/wither_idle7",
+        "entity/wither/wither_idle8",
+        "entity/wither/wither_idle9",
+        "entity/wither/wither_idle10",
+        "entity/wither/wither_idle11",
+        "entity/wither/wither_idle12",
+        "entity/wither/wither_idle13",
+        "entity/wither/wither_idle14",
+        "entity/wither/wither_idle15",
+        "entity/wither/wither_idle16",
+        "entity/wither/wither_idle17",
+        "entity/wither/wither_idle18",
+        "entity/wither/wither_idle19",
+        "entity/wither/wither_idle20",
+        "entity/wither/wither_idle21",
+        "entity/wither/wither_idle22",
+        "entity/wither/wither_idle23",
+        "entity/wither/wither_idle24"
+      ],
+      "subtitle": "subtitles.entity.wither.ambient",
+      "replace" : true
+   },
    "entity.wither.break_block": {
       "sounds": [
-        "misc/hl_explosion1",
-        "misc/hl_explosion2",
-        "misc/hl_explosion3",
-        "misc/hl_explosion4",
-        "misc/is_explosion1",
-        "misc/is_explosion2",
-        "misc/is_explosion3"
+        "entity/wither/wither_break"
       ],
-      "subtitle": "subtitles.entity.wither.shoot",
+      "subtitle": "subtitles.block.generic.break",
+      "replace" : true
+   },
+   "entity.wither.death": {
+      "sounds": [
+        "entity/wither/wither_deathjava1",
+        "entity/wither/wither_deathjava2"
+      ],
+      "subtitle": "subtitles.entity.wither.death",
+      "replace" : true
+   },
+   "entity.wither.hurt": {
+      "sounds": [
+        "entity/wither/wither_hurt1",
+        "entity/wither/wither_hurt2",
+        "entity/wither/wither_hurt3",
+        "entity/wither/wither_hurt4",
+        "entity/wither/wither_hurt5",
+        "entity/wither/wither_hurt6",
+        "entity/wither/wither_hurt7",
+        "entity/wither/wither_hurt8"
+      ],
+      "subtitle": "subtitles.entity.wither.hurt",
       "replace" : true
    },
    "entity.wither.shoot": {
@@ -965,6 +1011,18 @@
         "misc/firework_launch2"
       ],
       "subtitle": "subtitles.entity.wither.shoot",
+      "replace" : true
+   },
+   "entity.wither.spawn": {
+      "sounds": [
+        "entity/wither/wither_spawnjava1",
+        "entity/wither/wither_spawnjava2",
+        "entity/wither/wither_spawnjava3",
+        "entity/wither/wither_spawnjava4",
+        "entity/wither/wither_spawnjava5",
+        "entity/wither/wither_spawnjava6"
+      ],
+      "subtitle": "subtitles.entity.wither.spawn",
       "replace" : true
    },
    "item.bottle.empty": {

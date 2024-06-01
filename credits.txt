@@ -16,6 +16,7 @@ SEGA - PSO Nova
 Tripwire Interactive - Killing Floor
 NetherRealm Studios - Mortal Kombat 10
 a1337spy - InsurgencySFX sound pack (https://gitlab.com/a1337spy/insurgencysfx)
+Crowbar Collective - Black Mesa
 
 Reference for individual sound events:
 Sound Event - Person/Group/Company

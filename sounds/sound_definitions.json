@@ -420,12 +420,73 @@
         "assets/minecraft/sounds/misc/item_dropthrow"
       ]
     },
+   "mob.wither.ambient": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/entity/wither/wither_idle1",
+        "assets/minecraft/sounds/entity/wither/wither_idle2",
+        "assets/minecraft/sounds/entity/wither/wither_idle3",
+        "assets/minecraft/sounds/entity/wither/wither_idle4",
+        "assets/minecraft/sounds/entity/wither/wither_idle5",
+        "assets/minecraft/sounds/entity/wither/wither_idle6",
+        "assets/minecraft/sounds/entity/wither/wither_idle7",
+        "assets/minecraft/sounds/entity/wither/wither_idle8",
+        "assets/minecraft/sounds/entity/wither/wither_idle9",
+        "assets/minecraft/sounds/entity/wither/wither_idle10",
+        "assets/minecraft/sounds/entity/wither/wither_idle11",
+        "assets/minecraft/sounds/entity/wither/wither_idle12",
+        "assets/minecraft/sounds/entity/wither/wither_idle13",
+        "assets/minecraft/sounds/entity/wither/wither_idle14",
+        "assets/minecraft/sounds/entity/wither/wither_idle15",
+        "assets/minecraft/sounds/entity/wither/wither_idle16",
+        "assets/minecraft/sounds/entity/wither/wither_idle17",
+        "assets/minecraft/sounds/entity/wither/wither_idle18",
+        "assets/minecraft/sounds/entity/wither/wither_idle19",
+        "assets/minecraft/sounds/entity/wither/wither_idle20",
+        "assets/minecraft/sounds/entity/wither/wither_idle21",
+        "assets/minecraft/sounds/entity/wither/wither_idle22",
+        "assets/minecraft/sounds/entity/wither/wither_idle23",
+        "assets/minecraft/sounds/entity/wither/wither_idle24"
+      ]
+   },
+   "mob.wither.break_block": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/entity/wither/wither_break"
+      ]
+   },
+   "mob.wither.death": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/entity/wither/wither_deathbedrock"
+      ]
+   },
+   "mob.wither.hurt": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/entity/wither/wither_hurt1",
+        "assets/minecraft/sounds/entity/wither/wither_hurt2",
+        "assets/minecraft/sounds/entity/wither/wither_hurt3",
+        "assets/minecraft/sounds/entity/wither/wither_hurt4",
+        "assets/minecraft/sounds/entity/wither/wither_hurt5",
+        "assets/minecraft/sounds/entity/wither/wither_hurt6",
+        "assets/minecraft/sounds/entity/wither/wither_hurt7",
+        "assets/minecraft/sounds/entity/wither/wither_hurt8"
+      ]
+   },
     "mob.wither.shoot": {
+      "category": "hostile",
       "sounds": [
         "assets/minecraft/sounds/misc/firework_launch1",
         "assets/minecraft/sounds/misc/firework_launch2"
       ]
     },
+   "mob.wither.spawn": {
+      "category": "hostile",
+      "sounds": [
+        "assets/minecraft/sounds/entity/wither/wither_spawnbedrock"
+      ]
+   },
     "portal.travel": {
       "category": "ui",
       "sounds": [
@@ -551,11 +612,11 @@
       "sounds": [
        {
          "name": "assets/minecraft/sounds/player/player_jump1",
-         "volume": 0.15
+         "volume": 0.5
        },
        {
          "name": "assets/minecraft/sounds/player/player_jump2",
-         "volume": 0.15
+         "volume": 0.5
        }
       ]
     },
@@ -564,7 +625,7 @@
       "sounds": [
        {
          "name": "assets/minecraft/sounds/player/player_land",
-         "volume": 0.2
+         "volume": 0.5
        }
       ]
     },
