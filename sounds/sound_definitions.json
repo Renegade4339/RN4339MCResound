@@ -612,11 +612,11 @@
       "sounds": [
        {
          "name": "assets/minecraft/sounds/player/player_jump1",
-         "volume": 0.5
+         "volume": 0.15
        },
        {
          "name": "assets/minecraft/sounds/player/player_jump2",
-         "volume": 0.5
+         "volume": 0.15
        }
       ]
     },
@@ -625,7 +625,7 @@
       "sounds": [
        {
          "name": "assets/minecraft/sounds/player/player_land",
-         "volume": 0.5
+         "volume": 0.15
        }
       ]
     },
