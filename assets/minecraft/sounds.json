@@ -993,14 +993,14 @@
    },
    "entity.wither.hurt": {
       "sounds": [
-        "entity/wither/wither_hurt1",
-        "entity/wither/wither_hurt2",
-        "entity/wither/wither_hurt3",
-        "entity/wither/wither_hurt4",
-        "entity/wither/wither_hurt5",
-        "entity/wither/wither_hurt6",
-        "entity/wither/wither_hurt7",
-        "entity/wither/wither_hurt8"
+        "entity/wither/wither_pain1",
+        "entity/wither/wither_pain2",
+        "entity/wither/wither_pain3",
+        "entity/wither/wither_pain4",
+        "entity/wither/wither_pain5",
+        "entity/wither/wither_pain6",
+        "entity/wither/wither_pain7",
+        "entity/wither/wither_pain8"
       ],
       "subtitle": "subtitles.entity.wither.hurt",
       "replace" : true
