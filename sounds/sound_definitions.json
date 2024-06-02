@@ -47,7 +47,7 @@
       ]
     },
     "damage.fallbig": {
-      "category": "player",
+      "category": "neutral",
       "sounds": [
         {
           "name": "assets/minecraft/sounds/entity/common/fall_big",
@@ -56,7 +56,7 @@
       ]
     },
     "damage.fallsmall": {
-      "category": "player",
+      "category": "neutral",
       "sounds": [
         {
           "name": "assets/minecraft/sounds/entity/common/fall_small",
@@ -612,11 +612,11 @@
       "sounds": [
        {
          "name": "assets/minecraft/sounds/player/player_jump1",
-         "volume": 0.5
+         "volume": 0.12
        },
        {
          "name": "assets/minecraft/sounds/player/player_jump2",
-         "volume": 0.5
+         "volume": 0.12
        }
       ]
     },
@@ -625,7 +625,7 @@
       "sounds": [
        {
          "name": "assets/minecraft/sounds/player/player_land",
-         "volume": 0.5
+         "volume": 0.12
        }
       ]
     },
@@ -918,6 +918,41 @@
             "name": "assets/minecraft/sounds/player/player_miss2",
             "volume": 0.7
          }
+      ]
+    },
+
+    "entity.player.big_fall": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/entity/common/fall_big",
+          "volume": 2
+        }
+      ]
+    },
+    "entity.player.small_fall": {
+      "category": "player",
+      "sounds": [
+        {
+          "name": "assets/minecraft/sounds/entity/common/fall_small",
+          "volume": 2
+        }
+      ]
+    },
+    "entity.player.hurt": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/entity/common/entity_damage1",
+        "assets/minecraft/sounds/entity/common/entity_damage2",
+        "assets/minecraft/sounds/entity/common/entity_damage3",
+        "assets/minecraft/sounds/entity/common/entity_damage4",
+        "assets/minecraft/sounds/entity/common/entity_damage5"
+      ]
+    },
+    "entity.player.death": {
+      "category": "player",
+      "sounds": [
+        "assets/minecraft/sounds/entity/common/entity_die"
       ]
     },
     "entity.player.hurt_drown": {
