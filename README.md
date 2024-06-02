@@ -6,6 +6,8 @@ It's been a while since I made resource packs for Minecraft. I went on to decide
 
 To switch compatibility between Java and Bedrock, in Java, the pack must be a .zip file and thus pasted to the resourcepack directory in your profile[^1]. In bedrock, the filename extension shall be renamed as .mcpack and can be either dragged directly into the resource pack directory or opening it for mc to import it.
 
+However, because of how GitHub packages the repository by making another folder before the entire repository contents, one couldn't use the .zip file as a resource pack. Therefore, you should open the ZIP file and extract the folder to the resourcepack directory of your desired profile.
+
 
 
 
