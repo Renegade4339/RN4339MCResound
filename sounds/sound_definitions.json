@@ -51,7 +51,7 @@
       "sounds": [
         {
           "name": "assets/minecraft/sounds/entity/common/fall_big",
-          "volume": 2
+          "volume": 0.25
         }
       ]
     },
@@ -60,7 +60,7 @@
       "sounds": [
         {
           "name": "assets/minecraft/sounds/entity/common/fall_small",
-          "volume": 2
+          "volume": 0.25
         }
       ]
     },
@@ -218,6 +218,7 @@
     },
     "mob.ghast.fireball": {
       "category": "hostile",
+      "volume": 0.25,
       "sounds": [
         "assets/minecraft/sounds/entity/fireballer/fireball_big"
       ]
@@ -926,7 +927,7 @@
       "sounds": [
         {
           "name": "assets/minecraft/sounds/entity/common/fall_big",
-          "volume": 2
+          "volume": 0.5
         }
       ]
     },
@@ -935,7 +936,7 @@
       "sounds": [
         {
           "name": "assets/minecraft/sounds/entity/common/fall_small",
-          "volume": 2
+          "volume": 0.5
         }
       ]
     },
@@ -1100,6 +1101,7 @@
     "mob.warden.sonic_boom": {
       "category": "hostile",
       "max_distance": 160.0,
+      "volume": 0.25,
       "sounds": [
         "assets/minecraft/sounds/entity/warden/warden_boom1",
         "assets/minecraft/sounds/entity/warden/warden_boom2",
