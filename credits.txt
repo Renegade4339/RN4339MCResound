@@ -8,6 +8,7 @@ Sgt. Shivers
 id Software - Doom
 Raven Software - Hexen: Beyond Heretic
 Brutal Half-Life Dev Team - Brutal Half-Life
+\Valve - Half-Life and Half-Life 2
 BD Dev team - Brutal Doom
 EmeraldCoastt - Brutal Doom Platinum
 New World Interactive - Insurgency

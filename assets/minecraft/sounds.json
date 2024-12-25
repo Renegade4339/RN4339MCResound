@@ -22,7 +22,6 @@
         "misc/hl_explosion1",
         "misc/hl_explosion2",
         "misc/hl_explosion3",
-        "misc/hl_explosion4",
         "misc/is_explosion1",
         "misc/is_explosion2",
         "misc/is_explosion3"
@@ -167,7 +166,6 @@
         "misc/hl_explosion1",
         "misc/hl_explosion2",
         "misc/hl_explosion3",
-        "misc/hl_explosion4",
         "misc/is_explosion1",
         "misc/is_explosion2",
         "misc/is_explosion3"
@@ -352,7 +350,6 @@
         "misc/hl_explosion1",
         "misc/hl_explosion2",
         "misc/hl_explosion3",
-        "misc/hl_explosion4",
         "misc/is_explosion1",
         "misc/is_explosion2",
         "misc/is_explosion3"
@@ -457,6 +454,40 @@
       "subtitle": "subtitles.entity.item.pickup",
       "replace" : true
    },
+
+
+
+  "entity.wind_charge.throw": {
+    "sounds": [
+      {
+        "name": "entity/fireballer/fireball_small",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitles.entity.wind_charge.throw",
+    "replace" : true
+  },
+  "entity.wind_charge.wind_burst": {
+    "sounds": [
+      {
+        "attenuation_distance": 8,
+        "name": "combat/windcharge/windcharge_impact",
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitles.entity.wind_charge.wind_burst",
+    "replace" : true
+  },
+  "entity.breeze.wind_burst": {
+    "sounds": [
+      {
+        "name": "combat/windcharge/windcharge_impact",
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.entity.breeze.wind_burst",
+    "replace" : true
+  },
    "entity.lightning_bolt.impact": {
       "sounds": [
         "misc/lightning_impact1",
@@ -512,6 +543,10 @@
          },
          {
             "name": "player/player_crit3",
+            "volume": 0.7
+         },
+         {
+            "name": "player/player_crit4",
             "volume": 0.7
          }
       ],
@@ -584,6 +619,27 @@
       "subtitle" : "subtitles.entity.player.attack.weak",
       "replace" : true
    },
+  "item.mace.smash_air": {
+    "sounds": [
+      "player/player_maceair"
+    ],
+    "subtitle": "subtitles.item.mace.smash_air",
+    "replace" : true
+  },
+  "item.mace.smash_ground": {
+    "sounds": [
+      "player/player_mace"
+    ],
+    "subtitle": "subtitles.item.mace.smash_ground",
+    "replace" : true
+  },
+  "item.mace.smash_ground_heavy": {
+    "sounds": [
+      "player/player_macehavy"
+    ],
+    "subtitle": "subtitles.item.mace.smash_ground",
+    "replace" : true
+  },
    "entity.player.big_fall": {
       "sounds": ["entity/common/fall_big"],
       "subtitle": "subtitles.entity.generic.big_fall",
