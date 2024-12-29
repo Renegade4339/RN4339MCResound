@@ -549,7 +549,6 @@
         "assets/minecraft/sounds/misc/hl_explosion1",
         "assets/minecraft/sounds/misc/hl_explosion2",
         "assets/minecraft/sounds/misc/hl_explosion3",
-        "assets/minecraft/sounds/misc/hl_explosion4",
         "assets/minecraft/sounds/misc/is_explosion1",
         "assets/minecraft/sounds/misc/is_explosion2",
         "assets/minecraft/sounds/misc/is_explosion3"
@@ -856,6 +855,10 @@
          },
          {
             "name": "assets/minecraft/sounds/player/player_crit3",
+            "volume": 0.7
+         },
+         {
+            "name": "assets/minecraft/sounds/player/player_crit4",
             "volume": 0.7
          }
       ]
